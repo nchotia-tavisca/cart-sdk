@@ -1,0 +1,30 @@
+{
+  "name": "cart-sdk",
+  "version": "1.0.0",
+  "description": "Change Detection Across microapps",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build_dist": "rm -rf dist && tsc",
+    "prepublish": "npm run build_dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchotia-tavisca/cart-sdk.git"
+  },
+  "keywords": [],
+  "author": "Suraj Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchotia-tavisca/cart-sdk.git"
+  },
+  "homepage": "https://github.com/nchotia-tavisca/cart-sdk.git#readme",
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "@angular/core": "^8.2.14",
+    "rxjs": "^6.5.4"
+  },
+  "typings": "./dist/index.d.ts"
+}
